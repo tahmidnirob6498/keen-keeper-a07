@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Maya Patel",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "maya.patel@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Loves hiking and weekend coffee runs.",
+    "goal": 14,
+    "next_due_date": "2026-10-18"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "daniel.kim@example.com",
+    "days_since_contact": 5,
+    "status": "almostdue",
+    "tags": ["work", "tech"],
+    "bio": "Former teammate who enjoys photography and gaming.",
+    "goal": 14,
+    "next_due_date": "2026-11-02"
+  },
+  {
+    "id": 3,
+    "name": "Aisha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "aisha.rahman@example.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["school", "close friend"],
+    "bio": "School friend who loves books, music, and long chats.",
+    "goal": 10,
+    "next_due_date": "2026-10-20"
+  },
+  {
+    "id": 4,
+    "name": "Leo Martin",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "leo.martin@example.com",
+    "days_since_contact": 8,
+    "status": "on track",
+    "tags": ["neighbor", "sports"],
+    "bio": "Neighbor and tennis partner. Always up for a match.",
+    "goal": 21,
+    "next_due_date": "2026-11-06"
+  },
+  {
+    "id": 5,
+    "name": "Sofia Garcia",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sofia.garcia@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["travel", "close friend"],
+    "bio": "Travel buddy from a memorable trip through Spain.",
+    "goal": 21,
+    "next_due_date": "2026-10-15"
+  },
+  {
+    "id": 6,
+    "name": "Noah Williams",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "noah.williams@example.com",
+    "days_since_contact": 3,
+    "status": "almostdue",
+    "tags": ["family", "music"],
+    "bio": "Cousin who plays guitar and shares great playlists.",
+    "goal": 7,
+    "next_due_date": "2026-10-28"
+  },
+  {
+    "id": 7,
+    "name": "Priya Shah",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "priya.shah@example.com",
+    "days_since_contact": 12,
+    "status": "on track",
+    "tags": ["work", "mentor"],
+    "bio": "A thoughtful mentor who gives excellent career advice.",
+    "goal": 30,
+    "next_due_date": "2026-11-11"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Brown",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "ethan.brown@example.com",
+    "days_since_contact": 25,
+    "status": "almostdue",
+    "tags": ["college", "gaming"],
+    "bio": "College roommate who loves board games and cooking.",
+    "goal": 14,
+    "next_due_date": "2026-10-13"
+  },
+  {
+    "id": 9,
+    "name": "Lina Chen",
+    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "email": "lina.chen@example.com",
+    "days_since_contact": 6,
+    "status": "on track",
+    "tags": ["art", "close friend"],
+    "bio": "Creative friend who enjoys painting and visiting galleries.",
+    "goal": 14,
+    "next_due_date": "2026-11-01"
+  },
+  {
+    "id": 10,
+    "name": "Omar Hassan",
+    "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+    "email": "omar.hassan@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["sports", "school"],
+    "bio": "Old school friend and football fan.",
+    "goal": 14,
+    "next_due_date": "2026-10-20"
+  }
+]
