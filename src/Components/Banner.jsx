@@ -36,11 +36,11 @@ relationships that matter most.
 </div>
      <div className="shadow-xl gap-2 p-4 flex flex-col justify-center items-center rounded-xl">
 <h1 className="text-2xl font-semibold">{overDue.length}</h1>
-<p>Total Friends</p>
+<p>over due</p>
 </div>
      <div className="shadow-xl gap-2 p-4 flex flex-col justify-center items-center rounded-xl">
 <h1 className="text-2xl font-semibold">{interaction}</h1>
-<p>Total Friends</p>
+<p>interations this month</p>
 </div>
 
   </div>
