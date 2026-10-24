@@ -1,9 +1,9 @@
-
+import { Link } from "react-router";
 
 const FriendCart = ({friend}) => {
-    const {tags,status,days_since_contact,name,picture}=friend
+    const {tags,status,days_since_contact,name,picture,id}=friend
     return (
-        <div className="card bg-base-100 shadow-sm py-3 p-1">
+        <Link to={`/friendDetails/${id}`} className="card bg-base-100 shadow-sm py-3 p-1">
   <figure className="p-0">
     <img
       src={picture}
@@ -18,7 +18,7 @@ const FriendCart = ({friend}) => {
       <p className={`px-2 text-white py-1 my-2 rounded-xl ${status==="on track"? "bg-green-400": status==="almostdue" ? "bg-orange-300" : "bg-red-400"  }`}>{status}</p>
     </div>
   </div>
-</div>
+</Link>
     );
 };
 
