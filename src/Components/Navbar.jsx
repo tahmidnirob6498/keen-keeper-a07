@@ -12,9 +12,9 @@ const Navbar = () => {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-        <li><NavLink to="/"><div className="flex items-center gap-2"><IoHomeOutline /><p>Home</p></div></NavLink></li>
-      <li><NavLink to="/timeline"><div className="flex items-center gap-2"><IoCalendarOutline /><p>Timeline</p></div></NavLink></li>
-      <li><NavLink to="/stats"><div className="flex items-center gap-2"><IoStatsChartOutline /><p>Stats</p></div></NavLink></li>
+        <li><NavLink to="/" className={({isActive})=> `${isActive ? "bg-primary" : "" } mr-1`}><div className="flex items-center gap-2"><IoHomeOutline /><p>Home</p></div></NavLink></li>
+      <li><NavLink to="/timeline" className={({isActive})=> `${isActive ? "bg-primary" : "" } mr-1`}><div className="flex items-center gap-2"><IoCalendarOutline /><p>Timeline</p></div></NavLink></li>
+      <li><NavLink to="/stats" className={({isActive})=> `${isActive ? "bg-primary" : "" } mr-1`}><div className="flex items-center gap-2"><IoStatsChartOutline /><p>Stats</p></div></NavLink></li>
     </ul>
   </div>
 </div>

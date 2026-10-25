@@ -1,17 +1,26 @@
 
 import { IoAdd } from "react-icons/io5";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { Context } from "../context/CreateContext";
+import Loading from "./Loading";
 const Banner = () => {
+  const {loading,setLoading}=useContext(Context)
     const [friends,setFriends]=useState([])
     useEffect(()=>{
+      setLoading(true)
       fetch("/friendsData.json")
       .then(res=>res.json())
         .then(data=>setFriends(data))
-    },[])
+        .catch(err=>console.log(err))
+       .finally(()=>setLoading(false)) 
+    },[setLoading])
     const onTrack=friends.filter(friend=>friend.status==="on track")
     const overDue=friends.filter(friend=>friend.status==="overdue")
    
     const interaction=16;
+    if(loading){
+      return <Loading></Loading>
+    }
     return (
       <div className="hero py-10 flex flex-col">
   <div className="hero-content text-center">
