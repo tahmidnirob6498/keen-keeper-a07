@@ -5,12 +5,14 @@ import TimeLine from "../Components/TimeLine";
 import Stats from "../Components/Stats";
 import ErrorPage from "../Components/ErrorPage";
 import FriendsDetails from "../Components/FriendsDetails";
+import Loading from "../Components/Loading";
 
 const router=createBrowserRouter([
 {
     path:"/",
  Component:RootLayout,
  errorElement:<ErrorPage></ErrorPage>,
+ hydrateFallbackElement:<Loading></Loading>,
  children:[
     {
         index:true,
